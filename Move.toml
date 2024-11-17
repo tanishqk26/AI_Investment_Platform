@@ -1,0 +1,15 @@
+[package]
+name = "AI_Investment_Plt"
+version = "1.0.0"
+authors = []
+
+[addresses]
+AiInvestment = '0xd2414bcbc67f467bfb401483aeafbfef07cc0a1b73322f0ac525776752320261'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
